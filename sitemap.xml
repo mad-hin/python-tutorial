@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/post/Lesson2/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/post/Lesson2/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/post/Lesson1/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/post/Lesson1/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/categories/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/categories/</loc>
     
     <lastmod>2021-04-30</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/</loc>
     
     <lastmod>2021-04-30</lastmod>
     
@@ -39,7 +39,7 @@
   
 
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial</loc>
+    <loc>https://mad-hin.github.io/python-tutorial</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -47,42 +47,42 @@
 
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/Variables/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Loop/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/Data-Types/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Variables/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/Operators/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Data-Types/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/Input/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Operators/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/If-Statement/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Input/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/tags/Loop/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/If-Statement/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -91,7 +91,7 @@
 
   
   <url>
-    <loc>https://mad-hin.github.com/python-tutorial/categories/Python/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/categories/Python/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
