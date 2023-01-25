@@ -56,7 +56,14 @@
 
   
   <url>
-    <loc>https://mad-hin.github.io/python-tutorial/tags/Variables/</loc>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Loop/</loc>
+    <lastmod>2023-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/String/</loc>
     <lastmod>2023-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -64,6 +71,13 @@
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Data-Types/</loc>
+    <lastmod>2023-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mad-hin.github.io/python-tutorial/tags/Variables/</loc>
     <lastmod>2023-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -90,28 +104,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://mad-hin.github.io/python-tutorial/tags/Loop/</loc>
-    <lastmod>2023-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mad-hin.github.io/python-tutorial/tags/String/</loc>
-    <lastmod>2023-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://mad-hin.github.io/python-tutorial/categories/Python/</loc>
-    <lastmod>2023-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/categories/Python/</loc>

@@ -4,12 +4,11 @@ https://mad-hin.github.io/python-tutorial/post/Lesson1/
 https://mad-hin.github.io/python-tutorial/categories/
 https://mad-hin.github.io/python-tutorial/tags/
 https://mad-hin.github.io/python-tutorial
-https://mad-hin.github.io/python-tutorial/tags/Variables/
+https://mad-hin.github.io/python-tutorial/tags/Loop/
+https://mad-hin.github.io/python-tutorial/tags/String/
 https://mad-hin.github.io/python-tutorial/tags/Data-Types/
+https://mad-hin.github.io/python-tutorial/tags/Variables/
 https://mad-hin.github.io/python-tutorial/tags/Operators/
 https://mad-hin.github.io/python-tutorial/tags/Input/
 https://mad-hin.github.io/python-tutorial/tags/If-Statement/
-https://mad-hin.github.io/python-tutorial/tags/Loop/
-https://mad-hin.github.io/python-tutorial/tags/String/
-https://mad-hin.github.io/python-tutorial/categories/Python/
 https://mad-hin.github.io/python-tutorial/categories/Python/
