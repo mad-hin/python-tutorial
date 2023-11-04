@@ -1,0 +1,324 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSS 1 | Tutorial</title><meta name="keywords" content="CSS"><meta name="author" content="Marco Tam"><meta name="copyright" content="Marco Tam"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="The basic tags of CSS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS 1">
+<meta property="og:url" content="https://mad-hin.github.io/python-tutorial/post/css-1/">
+<meta property="og:site_name" content="Tutorial">
+<meta property="og:description" content="The basic tags of CSS">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://mad-hin.github.io/python-tutorial/pen.jpg">
+<meta property="article:published_time" content="2023-11-04T09:30:22.000Z">
+<meta property="article:modified_time" content="2023-11-04T09:30:22.000Z">
+<meta property="article:author" content="Marco Tam">
+<meta property="article:tag" content="CSS">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mad-hin.github.io/python-tutorial/pen.jpg"><link rel="shortcut icon" href="/python-tutorial/img/favicon.png"><link rel="canonical" href="https://mad-hin.github.io/python-tutorial/post/css-1/"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="stylesheet" href="/python-tutorial/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/python-tutorial/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#f33f3f","bgDark":"#121212","position":"top-center"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'CSS 1',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-04 17:30:22'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><link rel="stylesheet" href="/css/scrollbar.css"> <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/python-tutorial/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/python-tutorial/tags/"><div class="headline">Tags</div><div class="length-num">11</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/python-tutorial/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/python-tutorial/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/python-tutorial/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/python-tutorial/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/python-tutorial/pen.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/python-tutorial/">Tutorial</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/python-tutorial/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/python-tutorial/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/python-tutorial/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">CSS 1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-11-04T09:30:22.000Z" title="Created 2023-11-04 17:30:22">2023-11-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-11-04T09:30:22.000Z" title="Updated 2023-11-04 17:30:22">2023-11-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/python-tutorial/categories/CSS/">CSS</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">690</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>4min</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>CSS Basics</h1>
+<p>CSS stands for Cascading Style Sheets and it is used to style HTML elements. Here are some basic CSS properties you should know:</p>
+<h2 id="Class-and-ID">Class and ID</h2>
+<ul>
+<li>Use the <code>class</code> attribute to define a class.</li>
+<li>Use the <code>id</code> attribute to define an ID.</li>
+</ul>
+<p>In the example below, the <code>&lt;p&gt;</code> element has a class called <code>class-name</code> and an ID called <code>id-name</code>:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;class-name&quot;</span>&gt;</span>This is a paragraph with a class name.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">&quot;id-name&quot;</span>&gt;</span>This is a paragraph with an id name.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>In the CSS file, you can style the elements with the class name and ID like this:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.class-name</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#id-name</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: blue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Note that the class name is prefixed with a dot (<code>.</code>) and the ID name is prefixed with a hash (<code>#</code>).</p>
+<h2 id="Colors">Colors</h2>
+<p>Use the <code>color</code> property to change the color of text:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Use the <code>background-color</code> property to change the background color of an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: yellow;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Text">Text</h2>
+<p>Use the <code>font-family</code> property to change the font of text:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Arial, Helvetica, sans-serif;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Use the <code>font-size</code> property to change the size of text:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Use the <code>text-align</code> property to align text:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Borders">Borders</h2>
+<p>Use the <code>border</code> property to add a border to an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid black;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Padding">Padding</h2>
+<p>Use the <code>padding</code> property to add padding to an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Specifies-the-padding-in-different-directions">Specifies the padding in different directions</h3>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">padding-top</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">padding-right</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">padding-bottom</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">padding-left</span>: <span class="number">40px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Or you can use the shorthand property:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">20px</span> <span class="number">30px</span> <span class="number">40px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>For the shorthand property, the order is top, right, bottom, left.</p>
+<h2 id="Margin">Margin</h2>
+<p>Similar to padding, you can use the <code>margin</code> property to add margin to an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Specifies-the-margin-in-different-directions">Specifies the margin in different directions</h3>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="number">40px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Or you can use the shorthand property:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">20px</span> <span class="number">30px</span> <span class="number">40px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>For the shorthand property, the order is top, right, bottom, left.</p>
+<h3 id="Difference-between-padding-and-margin">Difference between padding and margin</h3>
+<p>The <code>padding</code> property adds padding inside the element, while the <code>margin</code> property adds margin outside the element.</p>
+<h2 id="Width-and-Height">Width and Height</h2>
+<p>Use the <code>width</code> property to set the width of an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Use the <code>height</code> property to set the height of an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Measurements">Measurements</h2>
+<p>In CSS, there are several units of measurement you can use:</p>
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>px</code></td>
+<td>Pixels</td>
+</tr>
+<tr>
+<td><code>em</code></td>
+<td>Relative to the font-size of the element</td>
+</tr>
+<tr>
+<td><code>rem</code></td>
+<td>Relative to the font-size of the root element</td>
+</tr>
+<tr>
+<td><code>%</code></td>
+<td>Relative to the parent element</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Display">Display</h2>
+<p>Use the <code>display</code> property to change the display of an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>block</code></td>
+<td>Displays an element as a block element</td>
+</tr>
+<tr>
+<td><code>inline</code></td>
+<td>Displays an element as an inline element</td>
+</tr>
+<tr>
+<td><code>inline-block</code></td>
+<td>Displays an element as an inline-level block container</td>
+</tr>
+<tr>
+<td><code>none</code></td>
+<td>Hides an element</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Position">Position</h2>
+<p>Use the <code>position</code> property to specify the type of positioning method used for an element:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>static</code></td>
+<td>Default value. Elements render in order, as they appear in the document flow</td>
+</tr>
+<tr>
+<td><code>relative</code></td>
+<td>Elements render in order, as they appear in the document flow. The <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties are used to position the element</td>
+</tr>
+<tr>
+<td><code>fixed</code></td>
+<td>The element is positioned relative to the browser window</td>
+</tr>
+<tr>
+<td><code>absolute</code></td>
+<td>The element is positioned relative to its first positioned (not static) ancestor element</td>
+</tr>
+<tr>
+<td><code>sticky</code></td>
+<td>The element is positioned based on the user’s scroll position</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Float">Float</h2>
+<p>Use the <code>float</code> property to specify whether an element should float to the left, right, or not at all:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>left</code></td>
+<td>The element floats to the left of its container</td>
+</tr>
+<tr>
+<td><code>right</code></td>
+<td>The element floats to the right of its container</td>
+</tr>
+<tr>
+<td><code>none</code></td>
+<td>Default value. The element does not float</td>
+</tr>
+</tbody>
+</table>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>CSS 1</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://mad-hin.github.io/python-tutorial/post/css-1/">https://mad-hin.github.io/python-tutorial/post/css-1/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>Author</h><div class="post-copyright-cc-info"><h>Marco Tam</h></div></div><div class="post-copyright-c"><h>Published</h><div class="post-copyright-cc-info"><h>2023-11-04</h></div></div><div class="post-copyright-u"><h>Updated</h><div class="post-copyright-cc-info"><h>2023-11-04</h></div></div><div class="post-copyright-c"><h>Copyright Notice</h><div class="post-copyright-cc-info"><a class="icon" rel="external nofollow noopener noreferrer" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="external nofollow noopener noreferrer" target="_blank" title="CC BY-SA 4.0" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/python-tutorial/tags/CSS/">CSS</a></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/python-tutorial/post/html-1/"><img class="next-cover" src="/python-tutorial/pen.jpg" onerror="onerror=null;src='/python-tutorial/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">HTML 1</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/python-tutorial/img/friend_404.gif'" alt="avatar"><div class="author-info__name">Marco Tam</div><div class="author-info__description">Whatever</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/python-tutorial/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a></div><div class="card-info-data-item is-center"><a href="/python-tutorial/tags/"><div class="headline">Tags</div><div class="length-num">11</div></a></div><div class="card-info-data-item is-center"><a href="/python-tutorial/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">CSS Basics</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Class-and-ID"><span class="toc-number">1.1.</span> <span class="toc-text">Class and ID</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Colors"><span class="toc-number">1.2.</span> <span class="toc-text">Colors</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Text"><span class="toc-number">1.3.</span> <span class="toc-text">Text</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Borders"><span class="toc-number">1.4.</span> <span class="toc-text">Borders</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Padding"><span class="toc-number">1.5.</span> <span class="toc-text">Padding</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Specifies-the-padding-in-different-directions"><span class="toc-number">1.5.1.</span> <span class="toc-text">Specifies the padding in different directions</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Margin"><span class="toc-number">1.6.</span> <span class="toc-text">Margin</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Specifies-the-margin-in-different-directions"><span class="toc-number">1.6.1.</span> <span class="toc-text">Specifies the margin in different directions</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Difference-between-padding-and-margin"><span class="toc-number">1.6.2.</span> <span class="toc-text">Difference between padding and margin</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Width-and-Height"><span class="toc-number">1.7.</span> <span class="toc-text">Width and Height</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Measurements"><span class="toc-number">1.8.</span> <span class="toc-text">Measurements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Display"><span class="toc-number">1.9.</span> <span class="toc-text">Display</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Position"><span class="toc-number">1.10.</span> <span class="toc-text">Position</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Float"><span class="toc-number">1.11.</span> <span class="toc-text">Float</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/python-tutorial/post/css-1/" title="CSS 1"><img src="/python-tutorial/pen.jpg" onerror="this.onerror=null;this.src='/python-tutorial/img/404.jpg'" alt="CSS 1"></a><div class="content"><a class="title" href="/python-tutorial/post/css-1/" title="CSS 1">CSS 1</a><time datetime="2023-11-04T09:30:22.000Z" title="Created 2023-11-04 17:30:22">2023-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/python-tutorial/post/html-1/" title="HTML 1"><img src="/python-tutorial/pen.jpg" onerror="this.onerror=null;this.src='/python-tutorial/img/404.jpg'" alt="HTML 1"></a><div class="content"><a class="title" href="/python-tutorial/post/html-1/" title="HTML 1">HTML 1</a><time datetime="2023-11-04T07:59:34.000Z" title="Created 2023-11-04 15:59:34">2023-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/python-tutorial/post/allnotes/" title="Allnotes"><img src="/python-tutorial/pen.jpg" onerror="this.onerror=null;this.src='/python-tutorial/img/404.jpg'" alt="Allnotes"></a><div class="content"><a class="title" href="/python-tutorial/post/allnotes/" title="Allnotes">Allnotes</a><time datetime="2023-06-10T11:28:53.000Z" title="Created 2023-06-10 19:28:53">2023-06-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/python-tutorial/post/Lesson5/" title="Lesson5"><img src="/python-tutorial/pen.jpg" onerror="this.onerror=null;this.src='/python-tutorial/img/404.jpg'" alt="Lesson5"></a><div class="content"><a class="title" href="/python-tutorial/post/Lesson5/" title="Lesson5">Lesson5</a><time datetime="2023-02-19T03:20:33.000Z" title="Created 2023-02-19 11:20:33">2023-02-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/python-tutorial/post/Lesson4/" title="Lesson4"><img src="/python-tutorial/pen.jpg" onerror="this.onerror=null;this.src='/python-tutorial/img/404.jpg'" alt="Lesson4"></a><div class="content"><a class="title" href="/python-tutorial/post/Lesson4/" title="Lesson4">Lesson4</a><time datetime="2023-02-05T03:22:38.000Z" title="Created 2023-02-05 11:22:38">2023-02-05</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/python-tutorial/pen.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2023 By Marco Tam</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="Increase font size"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="Decrease font size"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/python-tutorial/js/utils.js"></script><script src="/python-tutorial/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script></div></body></html>
