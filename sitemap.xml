@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mad-hin.github.io/python-tutorial/post/css-2/</loc>
+    
+    <lastmod>2023-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mad-hin.github.io/python-tutorial/post/css-1/</loc>
     
     <lastmod>2023-11-04</lastmod>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://mad-hin.github.io/python-tutorial</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,77 +111,77 @@
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/HTML/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Variables/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Data-Types/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Operators/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Input/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/If-Statement/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Loop/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/String/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/List/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/Functions/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/tags/CSS/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -181,21 +190,21 @@
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/categories/HTML/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/categories/Python/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mad-hin.github.io/python-tutorial/categories/CSS/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
